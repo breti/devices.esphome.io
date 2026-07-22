@@ -24,7 +24,8 @@ difficulty: 2
 Avalible on [AliExpress](https://www.aliexpress.com/item/1005008214679682.html) at various vendors. Can be purchased
 with or without the relay module, which does not fit into a standard EU round 60mm box.
 
-[Documentation .zip](http://pan.jczn1688.com/directlink/1/ESP32%20module/4.0inch_ESP32-4848S040.zip) (schematics in `5-IO pin distribution`)
+[Documentation .zip](http://pan.jczn1688.com/directlink/1/ESP32%20module/4.0inch_ESP32-4848S040.zip)
+(schematics in `5-IO pin distribution`)
 
 ![Connector pinout](./guition-esp32-s3-4848s040-connector.jpg "Connector pinout")
 
