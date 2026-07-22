@@ -36,7 +36,7 @@ display:
     id: id_tft_display
     show_test_card: true
     # uncomment for placement with down-facing USB socket:
-    # rotation: 90° 
+    # rotation: 90°
 
 touchscreen:
   - platform: gt911
