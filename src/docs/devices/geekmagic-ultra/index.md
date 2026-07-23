@@ -12,7 +12,7 @@ difficulty: 2
 
 The GeekMagic SmallTV / SmallTV Ultra is a LCD display designed to look like a mini computer.
 
-It is USB-C powered and has an ESP-12F inside.
+It is USB-C powered and has an ESP-12F/ESP8266 inside.
 
 The LCD panel has a 28x28mm size resulting in a 240x240 pixel resolution.
 
