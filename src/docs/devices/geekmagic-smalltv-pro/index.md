@@ -12,7 +12,7 @@ difficulty: 2
 
 The GeekMagic SmallTV Pro is a LCD display designed to look like a mini computer.
 
-It is USB-C powered and has an ESP32 inside (Sometimes labeled GM32-N16).
+It is USB-C powered and has an ESP32 inside (sometimes labeled GM32-N16).
 
 The LCD panel has a 28x28mm size resulting in a 240x240 pixel resolution.
 
