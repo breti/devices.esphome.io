@@ -12,7 +12,7 @@ difficulty: 2
 
 The GeekMagic SmallTV Pro is a LCD display designed to look like a mini computer.
 
-It is USB-C powered and has an ESP32 inside.
+It is USB-C powered and has an ESP32 inside (Sometimes labeled GM32-N16).
 
 The LCD panel has a 28x28mm size resulting in a 240x240 pixel resolution.
 
@@ -20,7 +20,7 @@ Available on [AliExpress](https://de.aliexpress.com/item/1005005132140010.html) 
 
 ## Product Images
 
-![GeekMagic SmallTV Pro](GeekMagic_SmallTV_Pro.jpg "GeekMagic SmallTV Pro")
+![GeekMagic SmallTV Pro](GeekMagic_SmallTV_Pro.jpg)
 
 ## Flash ESPHome
 
@@ -42,8 +42,8 @@ Because this device doesn't have a USB to serial chip, we need to connect some w
 
 PCB and Pinout:
 
-![PCB and Pinout](GeekMagic_SmallTV_Pro_PCB.jpg "PCB and Pinout")
-![PCB](GeekMagic_SmallTV_Pro_PCB2.jpg "PCB")
+![PCB and Pinout](GeekMagic_SmallTV_Pro_PCB.jpg)
+![PCB](GeekMagic_SmallTV_Pro_PCB2.jpg)
 
 **Note:** To enter flash mode, GPIO0 must be pulled to GND during power-up.
 
