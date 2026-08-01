@@ -8,10 +8,13 @@ made-for-esphome: false
 difficulty: 2
 ---
 
-<!-- Describe the device here. See the front-matter table on the contributing page for valid options. -->
+## Product Description
 
-## Basic Configuration
+The GeekMagic SmallTV Pro is a LCD display designed to look like a mini computer.
 
-```yaml
-# Paste a working ESPHome YAML configuration here
-```
+It is USB-C powered and has an ESP32 inside.
+
+The LCD panel has a 28x28mm size resulting in a 240x240 pixel resolution.
+
+Available on [AliExpress](https://de.aliexpress.com/item/1005005132140010.html) at various vendors.
+
