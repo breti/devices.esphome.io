@@ -16,7 +16,7 @@ It is USB-C powered and has an ESP-12F/ESP8266 inside.
 
 The LCD panel has a 28x28mm size resulting in a 240x240 pixel resolution.
 
-Avalible on [AliExpress](https://www.aliexpress.com/item/1005004679769445.html) at various vendors.
+Available on [AliExpress](https://www.aliexpress.com/item/1005004679769445.html) at various vendors.
 The “SmallTV” and “SmallTV Ultra” models differ only in their firmware; the hardware is identical.
 
 ## Product Images
