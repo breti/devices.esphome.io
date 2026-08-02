@@ -4,8 +4,6 @@ esphome:
 
 esp32:
   variant: esp32
-  framework:
-    type: esp-idf
 
 esp32_touch:
   setup_mode: false
