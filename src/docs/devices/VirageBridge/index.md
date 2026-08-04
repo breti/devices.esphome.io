@@ -6,7 +6,7 @@ standard: global
 board: esp8266
 ---
 
-Manufacurer: Virage Laboratories (seems to no longer exist)
+Manufacturer: Virage Laboratories (seems to no longer exist)
 
 ![image](virage_labs_VB-001.jpg)
 
