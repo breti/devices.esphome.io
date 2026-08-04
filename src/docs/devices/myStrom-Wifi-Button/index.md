@@ -11,7 +11,7 @@ difficulty: 3
 
 The [myStrom WiFi Button](https://mystrom.ch/wifi-button/) is controlled by ESP8266EX.
 
-The board exposes a header with all needed connections:
+The board exposes a header with all needed connections:  
 ![alt text](header.png "Header")
 
 You can solder the wires for the initial flash, but it's not required. I've had success just inserting breadboard pins
