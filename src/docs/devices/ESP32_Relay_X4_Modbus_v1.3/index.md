@@ -42,10 +42,10 @@ Digital Input 4 | GPIO33 | Pin 9 | Input | IN4
 Status LED | GPIO15 | Pin 23 | Output | Usually inverted
 PAD_TX2 | GPIO17 | Pin 28 | .. | no PSRAM
 PAD_RX2 | GPIO16 | Pin 27 | .. | no PSRAM
-PDAD_G12 | GPIO12 | | .. | 
-PDAD_G14 | GPIO14 | | .. | 
-PDAD_G21 | GPIO21 | | .. | 
-PDAD_G22 | GPIO22 | | .. | 
+PDAD_G12 | GPIO12 | .. | .. | ..
+PDAD_G14 | GPIO14 | .. | .. | ..
+PDAD_G21 | GPIO21 | .. | .. | ..
+PDAD_G22 | GPIO22 | .. | .. | ..
 
 All pins are inverted. It also exposes GPIOs 12, 14, 21, 22 labeled appropriately on the board.
 
