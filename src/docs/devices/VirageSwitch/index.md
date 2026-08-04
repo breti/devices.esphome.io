@@ -6,7 +6,7 @@ standard: us
 board: esp8266
 ---
 
-Manufacurer: Virage Laboratories (it seems to no longer exist)
+Manufacurer: Virage Laboratories (seems to no longer exist)
 
 ![image](virage_labs_KS-602H.jpg)
 
