@@ -40,10 +40,15 @@ If the first option is not usable for you, you can always flash the device manua
 Unscrew the 2 screws at the bottom of the device and slide the plastic casing open from the back of the device.
 Because this device doesn't have a USB to serial chip, we need to connect some wires to it in order to flash it.
 
-PCB and Pinout:
+PCB and Pinout - ESP32:
 
-![PCB and Pinout](GeekMagic_SmallTV_Pro_PCB.jpg)
-![PCB](GeekMagic_SmallTV_Pro_PCB2.jpg)
+![PCB and Pinout](GeekMagic_SmallTV_Pro_PCB_ESP32.jpg)
+![PCB](GeekMagic_SmallTV_Pro_PCB2_ESP32.jpg)
+
+PCB and Pinout - GM32-N16:
+
+![PCB and Pinout](GeekMagic_SmallTV_Pro_PCB_GM32-N16.jpg)
+![PCB](GeekMagic_SmallTV_Pro_PCB2_GM32-N16.jpg)
 
 **Note:** To enter flash mode, GPIO0 must be pulled to GND during power-up.
 
