@@ -41,17 +41,6 @@ sensor:
     current_resistor: ${current_res}
     voltage_divider: ${voltage_div}
 
-  # Reports the total Power so-far each day, resets at midnight,
-  # see https://esphome.io/components/sensor/total_daily_energy/
-  - platform: total_daily_energy
-    name: ${friendly_name} Total Daily Energy
-    icon: mdi:circle-slice-3
-    power_id: wattage
-    filters:
-      # Multiplication factor from W to kW is 0.001
-      - multiply: 0.001
-    unit_of_measurement: kWh
-
 binary_sensor:
 # Button on the front is pressed and then toggle relay
   - platform: gpio
@@ -78,36 +67,18 @@ switch:
 
 output:
 # Output GPIOs for blue led
-- platform: esp8266_pwm # Blue
-  id: ${devicename}_blue_output
-  pin:
-    number: GPIO02
-    inverted: True
+  - platform: esp8266_pwm # Blue
+    id: ${devicename}_blue_output
+    pin:
+      number: GPIO02
+      inverted: True
 
 light:
 # RGB light
-- platform: monochromatic
-  name: ${friendly_name} Light
-  output: ${devicename}_blue_output
-  id: ${devicename}_blue_led
-
-# Blink the blue light if we aren't connected to WiFi. Could use https://esphome.io/components/status_led/
-# instead but then we couldn't use the blue light for other things as well.
-# Only if not connected after 30s
-interval:
-  - interval: 2000ms
-    then:
-      - if:
-          condition:
-            for:
-              time: 30s
-              condition:
-                not:
-                  wifi.connected:
-          then:
-            - light.turn_on:
-                id: ${devicename}_blue_led
-                brightness: 100%
+  - platform: monochromatic
+    name: ${friendly_name} Light
+    output: ${devicename}_blue_output
+    id: ${devicename}_blue_led
 
 script:
   - id: led_relay_off # Normal operation when relay is off
