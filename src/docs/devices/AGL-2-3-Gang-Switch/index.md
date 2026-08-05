@@ -9,8 +9,7 @@ difficulty: 3
 
 ## General Notes
 
-The AGL Switch is available in Brazil.
-[AGL](https://www.aglbrasil.com/en/produtos/smart-home)
+The [AGL](https://www.aglbrasil.com/en/produtos/smart-home) Switch is available in Brazil.
 
 This config was created based on the 2 gang switch that I had.
 
