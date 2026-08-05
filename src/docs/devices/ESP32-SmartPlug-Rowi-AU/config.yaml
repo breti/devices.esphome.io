@@ -4,7 +4,6 @@ substitutions:
 
 esphome:
   name: ${name}
-  name_add_mac_suffix: true
   project:
     name: "kiwi-warmer.rowi-plug"
     version: "1.0"
@@ -13,9 +12,6 @@ esp32:
   variant: esp32
 
 logger:
-
-dashboard_import:
-  package_import_url: github://vt-vaio/rowi/rowi-plug.yaml@main
 
 binary_sensor:
   - platform: gpio
