@@ -41,7 +41,8 @@ sensor:
     current_resistor: ${current_res}
     voltage_divider: ${voltage_div}
 
-  # Reports the total Power so-far each day, resets at midnight, see https://esphome.io/components/sensor/total_daily_energy/
+  # Reports the total Power so-far each day, resets at midnight,
+  # see https://esphome.io/components/sensor/total_daily_energy/
   - platform: total_daily_energy
     name: ${friendly_name} Total Daily Energy
     icon: mdi:circle-slice-3
@@ -70,10 +71,6 @@ switch:
     pin: GPIO15
     id: relay
     restore_mode: RESTORE_DEFAULT_OFF #Try to restore relay state after reboot/power-loss event.
-    #RESTORE_DEFAULT_OFF (Default) - Attempt to restore state and default to OFF if not possible to restore. Uses flash write cycles.
-    #RESTORE_DEFAULT_ON - Attempt to restore state and default to ON. Uses flash write cycles.
-    #ALWAYS_OFF - Always initialize the pin as OFF on bootup. Does not use flash write cycles.
-    #ALWAYS_ON - Always initialize the pin as ON on bootup. Does not use flash write cycles.
     on_turn_on: # Action when relay is turned on
       - script.execute: led_power_on
     on_turn_off: # Action when relay is turned off
@@ -94,7 +91,8 @@ light:
   output: ${devicename}_blue_output
   id: ${devicename}_blue_led
 
-# Blink the blue light if we aren't connected to WiFi. Could use https://esphome.io/components/status_led/ instead but then we couldn't use the blue light for other things as well.
+# Blink the blue light if we aren't connected to WiFi. Could use https://esphome.io/components/status_led/
+# instead but then we couldn't use the blue light for other things as well.
 # Only if not connected after 30s
 interval:
   - interval: 2000ms
