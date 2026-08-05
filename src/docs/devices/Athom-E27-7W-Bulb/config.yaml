@@ -10,19 +10,6 @@ esp8266:
 
 logger:
 
-binary_sensor:
-  - platform: status
-    name: "${friendly_name} Status"
-
-sensor:
-  - platform: uptime
-    name: "${friendly_name} Uptime Sensor"
-
-switch:
-  - platform: restart
-    id: restart_switch
-    name: "${friendly_name} Restart"
-
 output:
   - platform: esp8266_pwm
     id: red_output
