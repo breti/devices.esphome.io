@@ -34,4 +34,3 @@ The latest LSC Smart Connect Switch devices use the Tuya WB2S module, which is n
 ```
 
 [https://thibmaek.com/posts/flashing-esphome-to-lsc-smart-connect-action-switches-power-plugs](https://thibmaek.com/posts/flashing-esphome-to-lsc-smart-connect-action-switches-power-plugs)
-
