@@ -9,8 +9,6 @@ esp8266:
 logger:
 
 binary_sensor:
-  - platform: status
-    name: AGL 2 Gang Status
   - platform: gpio
     pin:
       number: GPIO16
