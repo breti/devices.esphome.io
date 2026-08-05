@@ -15,11 +15,6 @@ esp8266:
 # Enable logging
 logger:
 
-# Enable time component for use by daily power sensor
-time:
-  - platform: homeassistant
-    id: homeassistant_time
-
 sensor:
 # Reports the Current, Voltage, and Power used by the plugged-in device
   - platform: hlw8012
