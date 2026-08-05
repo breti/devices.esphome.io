@@ -12,7 +12,7 @@ esp8266:
 
 # Enable logging
 logger:
-  baudrate: 0 #Disable UART logging
+  baud_rate: 0 #Disable UART logging
 
 # Device Specific Config
 
