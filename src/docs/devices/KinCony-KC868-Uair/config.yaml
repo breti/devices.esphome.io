@@ -1,6 +1,6 @@
 # Basic Config
 esphome:
-  name: KC868-Uair
+  name: kc868-uair
 
 esp32:
   variant: esp32
