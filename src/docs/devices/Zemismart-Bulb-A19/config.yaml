@@ -46,15 +46,3 @@ light:
     green: output_green
     blue: output_blue
     white: output_white
-
-sensor:
-  - platform: wifi_signal
-    name: "${dev_name}_wifi_signal"
-    update_interval: 30s
-  - platform: uptime
-    name: "${dev_name}_uptime"
-    update_interval: 120s
-
-text_sensor:
-  - platform: version
-    name: "${dev_name}_version"
