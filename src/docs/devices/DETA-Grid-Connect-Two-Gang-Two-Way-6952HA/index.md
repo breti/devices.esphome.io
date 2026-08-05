@@ -18,7 +18,7 @@ is part of the [Grid Connect ecosystem](https://grid-connect.com.au/), and is so
 Also known as:
 
 - Smart Double Gang 2 Way Touch Light Switch
-  ([Deta website](https://detaelectrical.com.au/product/deta-grid-connect-smart-double-gang-2-way-touch-light-switch/))
+  ([Deta website](https://detaelectrical.com.au/products/deta-grid-connect-smart-double-gang-2-way-touch-light-switch))
 - Twin Gang 2 Way Touch Light Switch ([Grid Connect website](https://grid-connect.com.au/products/deta-grid-connect-smart-double-gang-2-way-touch-light-switch))
 
 ### Variations
