@@ -4,7 +4,6 @@ date-published: 2024-05-21
 type: switch
 standard: au
 board: bk72xx
-made-for-esphome: False
 difficulty: 2
 ---
 
@@ -79,7 +78,7 @@ pad to a spare GPIO pin.
 
 ### Add Reboot button to HA
 
-```yaml
+```yaml inline
 switch:
   - platform: restart
     name: ${friendlyname} REBOOT
