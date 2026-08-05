@@ -18,8 +18,9 @@ i2c:
 
 # Example configuration entry
 one_wire:
-  - pin: GPIO27
-    update_interval: 15s
+  - platform: gpio
+    id: one_wire_gpio_1
+    pin: GPIO27
 
 # Individual sensors
 sensor:
