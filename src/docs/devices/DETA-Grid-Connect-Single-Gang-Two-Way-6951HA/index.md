@@ -18,7 +18,7 @@ Bunnings in Australia.
 Also known as:
 
 - Smart Single Gang 2 Way Touch Light Switch
-  ([Deta website](https://detaelectrical.com.au/product/deta-grid-connect-smart-single-gang-2-way-touch-light-switch/))
+  ([Deta website](https://detaelectrical.com.au/products/deta-grid-connect-smart-single-gang-2-way-touch-light-switch))
 - Single Gang 2 Way Touch Light Switch ([Grid Connect website](https://grid-connect.com.au/products/deta-grid-connect-smart-single-gang-2-way-touch-light-switch))
 
 ### Variations
