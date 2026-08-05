@@ -8,7 +8,9 @@ substitutions:
   switch3_name: Lamp 3
 
 esphome:
-
+  name: ${node_id}
+  friendly_name: ${verbose_name}
+  
 esp8266:
   board: esp01_1m
 
