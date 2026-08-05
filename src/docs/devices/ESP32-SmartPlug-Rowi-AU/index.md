@@ -32,5 +32,7 @@ Manufacturer: [Vaiotech](https://www.vaiotech.co.nz/rowi-smart-plug-for-esphome/
 
 ## Basic Configuration
 
+[GitHub](https://github.com/vt-vaio/rowi)
+
 ```yaml file=config.yaml
 ```
