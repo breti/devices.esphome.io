@@ -4,7 +4,6 @@ date-published: 2025-01-18
 type: switch
 standard: au
 board: bk72xx
-made-for-esphome: False
 difficulty: 3
 ---
 
@@ -72,7 +71,7 @@ _See
 
 ### Add Reboot button to HA
 
-```yaml
+```yaml inline
 switch:
   - platform: restart
     name: ${friendlyname} REBOOT
