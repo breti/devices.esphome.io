@@ -51,8 +51,6 @@ binary_sensor:
               id: led
               brightness: 100%
               transition_length: 0s
-  - platform: status
-    name: "${friendly_name} Server Status"
 
 switch:
   # Relay - Socket 1 (As Switch)
