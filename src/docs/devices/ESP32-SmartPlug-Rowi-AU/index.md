@@ -4,6 +4,7 @@ date-published: 2022-01-20
 type: plug
 standard: au
 board: esp32
+made-for-esphome: true
 ---
 
 ## Product Description
@@ -34,5 +35,5 @@ Manufacturer: [Vaiotech](https://www.vaiotech.co.nz/rowi-smart-plug-for-esphome/
 
 [GitHub](https://github.com/vt-vaio/rowi)
 
-```yaml file=config.yaml
+```yaml url=https://github.com/vt-vaio/rowi/blob/main/rowi-plug.yaml
 ```
